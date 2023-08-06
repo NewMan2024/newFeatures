@@ -1,1 +1,2036 @@
+<div class="guided-nav">
+<div id="srp-tile" class="display-ad " data-ad-unit-path="6427/shop/mix.srp/tile" data-ad-type="partial-page-width" data-hidden-on="[&quot;mobile&quot;, &quot;tablet&quot;]" data-ad-sizes="[[1, 1], &quot;fluid&quot;]" data-appnexus-placement-id="" data-lazy-load="" phx-update="ignore">
+  <div id="phx-ignore-container-srp-tile" phx-update="ignore" aria-label="Advertisement"></div>
+</div>
 
+
+      <div class="filters" id="search_form_container">
+<div class="refinements-top" data-phx-component="32" id="phx-F3i2NfXkn06qBmrk-32-0">
+  <span class="total-filter-count">
+10,000+ matches
+  </span>
+<button class="sds-button--link subscribe-with-save-status-indicator" data-activity-rule-type="custom" data-component="save-search-add" data-linkname="save-search-auth-modal-open" id="saved_search" phx-click="save_search" phx-target="#saved_search" trid="ksdMRceXGVxs8V99xIKhlK" trc="" data-phx-component="94">
+  <spark-svg name="heart-empty" class="save-status-indicator unsaved">
+  </spark-svg>
+  <span>Save search</span>
+</button>
+</div>
+<form action="#" method="get" enctype="multipart/form-data" id="search_form" phx-auto-recover="ignore" phx-change="search_form_change" phx-submit="search_form_change">
+  
+  
+  
+<input id="hidden_desktop_sort" name="sort" type="hidden" value="best_match_desc">
+<input id="hidden_desktop_page_size" name="page_size" type="hidden" value="20">
+<input id="hidden_desktop_dealer_id" name="dealer_id" type="hidden">
+<div data-phx-component="33" id="phx-F3i2NfXkn06qBmrk-33-0">
+  <div>
+    <div id="active_filter_tags" class="active-filter-tags">
+
+    </div>
+  </div>
+</div>
+  <section id="search-basics-section" class="guided-nav-section" aria-labelledby="title_basics">
+    <div class="sds-heading--5 heading" id="title_basics">Basics</div>
+    <div id="search-basics-area">
+<div id="search-basics-melded" class="sds-field-group sds-field-group--melded">
+<div class="sds-input-container sds-input-container--dropdown distance-dropdown">
+
+<select class="sds-text-field" data-activity-rule-type="pageview" data-activitykey="location-distance" data-component="filter-apply" id="location-distance" name="maximum_distance"><option value="10">10 miles</option><option selected="" value="20">20 miles</option><option value="30">30 miles</option><option value="40">40 miles</option><option value="50">50 miles</option><option value="75">75 miles</option><option value="100">100 miles</option><option value="150">150 miles</option><option value="200">200 miles</option><option value="250">250 miles</option><option value="500">500 miles</option><option value="all">All miles from</option></select>
+  <label class="sds-label" for="location-distance">Search within</label>
+  <spark-svg name="chevron-down" class="sds-text-field__icon" role="presentation"></spark-svg>
+</div>
+
+<div id="zip" class="sds-input-container zip-input">
+
+<input aria-label="Enter a Zip Code" class="sds-text-field" data-activity-rule-type="pageview" data-activitykey="zip" data-component="vehicle-search" id="zip-input" maxlength="5" name="zip" onkeyup="this.value=this.value.replace(/[^0-9.]+/g,'')" phx-debounce="750" phx-page-loading="" placeholder=" " type="tel" value="94546" autocomplete="postal-code">
+<label class="sds-label" for="zip-input">ZIP</label>
+  <cars-geo-dropdown></cars-geo-dropdown>
+</div>
+
+<div class="sds-input-container sds-input-container--dropdown stock-type">
+
+<select class="sds-text-field" data-activity-rule-type="pageview" data-activitykey="stock-type-select" data-component="filter-apply" id="stock-type-select" name="stock_type"><option selected="" value="all">New &amp; Used</option><option value="new_cpo">New &amp; Certified</option><option value="new">New</option><option value="used">Used</option><option value="cpo">Certified</option></select>
+<label class="sds-label" for="stock-type-select">New/used</label>
+  <spark-svg name="chevron-down" class="sds-text-field__icon" role="presentation"></spark-svg>
+</div>
+
+<div class="makes-select">
+  <div class="sds-input-container sds-input-container--dropdown">
+<select class="sds-text-field" data-activity-rule-type="pageview" data-activitykey="make_select" data-component="filter-apply" id="make_select" name="makes[]" phx-hook="MakeChange"><option selected="" value="">All makes</option><optgroup label="Popular makes"><option value="acura">Acura</option><option value="audi">Audi</option><option value="bmw">BMW</option><option value="buick">Buick</option><option value="cadillac">Cadillac</option><option value="chevrolet">Chevrolet</option><option value="chrysler">Chrysler</option><option value="dodge">Dodge</option><option value="ford">Ford</option><option value="gmc">GMC</option><option value="genesis">Genesis</option><option value="honda">Honda</option><option value="hyundai">Hyundai</option><option value="infiniti">INFINITI</option><option value="jaguar">Jaguar</option><option value="jeep">Jeep</option><option value="kia">Kia</option><option value="land_rover">Land Rover</option><option value="lexus">Lexus</option><option value="lincoln">Lincoln</option><option value="mini">MINI</option><option value="mazda">Mazda</option><option value="mercedes_benz">Mercedes-Benz</option><option value="mitsubishi">Mitsubishi</option><option value="nissan">Nissan</option><option value="porsche">Porsche</option><option value="ram">RAM</option><option value="subaru">Subaru</option><option value="tesla">Tesla</option><option value="toyota">Toyota</option><option value="volkswagen">Volkswagen</option><option value="volvo">Volvo</option></optgroup><optgroup label="Other makes"><option value="ac">AC</option><option value="alfa_romeo">Alfa Romeo</option><option value="am_general">Am General</option><option value="american_motors">American Motors</option><option value="aston_martin">Aston Martin</option><option value="austin_healey">Austin-Healey</option><option value="avanti_motors">Avanti Motors</option><option value="bentley">Bentley</option><option value="bugatti">Bugatti</option><option value="checker">Checker</option><option value="crosley">Crosley</option><option value="daewoo">Daewoo</option><option value="datsun">Datsun</option><option value="detomaso">DeTomaso</option><option value="delorean">Delorean</option><option value="desoto">Desoto</option><option value="eagle">Eagle</option><option value="edsel">Edsel</option><option value="fiat">FIAT</option><option value="ferrari">Ferrari</option><option value="fisker">Fisker</option><option value="geo">Geo</option><option value="hudson">Hudson</option><option value="hummer">Hummer</option><option value="international">International</option><option value="isuzu">Isuzu</option><option value="jensen">Jensen</option><option value="kaiser">Kaiser</option><option value="karma">Karma</option><option value="lasalle">LaSalle</option><option value="lamborghini">Lamborghini</option><option value="lancia">Lancia</option><option value="lotus">Lotus</option><option value="lucid">Lucid</option><option value="mg">MG</option><option value="maserati">Maserati</option><option value="maybach">Maybach</option><option value="mclaren">McLaren</option><option value="mercury">Mercury</option><option value="morgan">Morgan</option><option value="nash">Nash</option><option value="oldsmobile">Oldsmobile</option><option value="opel">Opel</option><option value="packard">Packard</option><option value="pagani">Pagani</option><option value="panoz">Panoz</option><option value="plymouth">Plymouth</option><option value="polestar">Polestar</option><option value="pontiac">Pontiac</option><option value="rivian">Rivian</option><option value="rolls_royce">Rolls-Royce</option><option value="rover">Rover</option><option value="saab">Saab</option><option value="saturn">Saturn</option><option value="scion">Scion</option><option value="spyker">Spyker</option><option value="studebaker">Studebaker</option><option value="sunbeam">Sunbeam</option><option value="suzuki">Suzuki</option><option value="triumph">Triumph</option><option value="willys">Willys</option><option value="smart">smart</option></optgroup></select>
+    <label for="make_select" class="sds-label">Make</label>
+    <spark-svg name="chevron-down" class="sds-text-field__icon" role="presentation"></spark-svg>
+  </div>
+
+</div>
+
+</div>
+
+    </div>
+  </section>
+
+<div class="sds-field filter refinement-simple " data-phx-component="34" id="phx-F3i2NfXkn06qBmrk-34-0">
+  <div class="sds-field " id="model">
+    <span class="refinement-label-wrapper">
+      
+      
+    </span>
+    
+<div>
+
+
+
+</div>
+
+
+  </div>
+  
+</div>
+
+<div class="sds-field filter refinement-simple " data-phx-component="35" id="phx-F3i2NfXkn06qBmrk-35-0">
+  <div class="sds-field " id="trim">
+    <span class="refinement-label-wrapper">
+      
+      
+    </span>
+    
+<div>
+
+</div>
+
+
+  </div>
+  
+</div>
+
+
+<div class="sds-field filter refinement-simple available" data-phx-component="36" id="phx-F3i2NfXkn06qBmrk-36-0">
+  <div class="sds-field " id="price_section">
+    <span class="refinement-label-wrapper">
+      <label class="heading" for="" role="presentation">Price &amp; payment</label>
+      
+        <span class="new-feature-badge">NEW</span>
+      
+    </span>
+    
+<span data-phx-component="93" id="phx-F3i2NfXkn06qBmrk-93-0">
+
+  <span id="price-component-wrapper" phx-hook="PriceInputHook" data-hook-is-mobile="false" data-hook-is-monthly-tab-selected="false">
+    <span>
+
+      <spark-tabs id="price-component-tabs" class="price-component-tabs" variant="switch" label="Price &amp; payment" phx-target="93" phx-update="ignore" style="--tabs-active-width: 50%; --tabs-active-left: 0%;" role="tablist">
+        <spark-tab slot="tab" variant="switch" panel="full_price" phx-click="filter_by_full_price" selected="" data-click-intent-id="shop-by-price-srp-guided-nav" data-custom-click-intent-id="shop-by-price-srp-guided-nav" data-linkname="shop-by-price-srp-guided-nav" data-activity-rule-type="custom" id="tab-11" role="tab" aria-selected="true" tabindex="0">
+          Full Price
+        </spark-tab>
+        <spark-tab slot="tab" variant="switch" panel="monthly" phx-click="filter_by_monthly_payment" data-click-intent-id="shop-by-monthly-payment-srp-guided-nav" data-custom-click-intent-id="shop-by-monthly-payment-srp-guided-nav" data-linkname="shop-by-monthly-payment-srp-guided-nav" data-activity-rule-type="custom" id="tab-12" role="tab" aria-selected="false" tabindex="-1">
+          Monthly
+        </spark-tab>
+      </spark-tabs>
+      <spark-tab-panel slot="panel" name="full_price" selected="" class="min-max-price-mobile-dropdowns" id="panel-28" role="tabpanel" tabindex="0">
+
+<div class="sds-field filter refinement-simple available" data-phx-component="116" id="phx-F3i2NfXkn06qBmrk-116-0">
+  <div class="sds-field " id="price">
+    
+<div class="flex-container" role="group">
+  <div class="sds-input-container sds-input-container--dropdown">
+
+<select class="sds-text-field" data-activity-rule-type="pageview" data-activitykey="price_list_price_min_select" data-component="filter-apply" id="price_list_price_min_select" name="list_price_min"><option selected="" value="">Lowest</option><option value="2000">$2,000</option><option value="4000">$4,000</option><option value="6000">$6,000</option><option value="8000">$8,000</option><option value="10000">$10,000</option><option value="15000">$15,000</option><option value="20000">$20,000</option><option value="25000">$25,000</option><option value="30000">$30,000</option><option value="35000">$35,000</option><option value="40000">$40,000</option><option value="45000">$45,000</option><option value="50000">$50,000</option><option value="60000">$60,000</option><option value="70000">$70,000</option><option value="80000">$80,000</option><option value="90000">$90,000</option><option value="100000">$100,000</option><option value="125000">$125,000</option><option value="150000">$150,000</option><option value="175000">$175,000</option></select>
+    <label for="price_list_price_min_select" class="sds-label">Min price</label>
+    <spark-svg name="chevron-down" class="sds-text-field__icon" role="presentation"></spark-svg>
+  </div>
+  <div class="sds-input-container sds-input-container--dropdown">
+
+<select class="sds-text-field" data-activity-rule-type="pageview" data-activitykey="price_list_price_max_select" data-component="filter-apply" id="price_list_price_max_select" name="list_price_max"><option selected="" value="">Highest</option><option value="2000">$2,000</option><option value="4000">$4,000</option><option value="6000">$6,000</option><option value="8000">$8,000</option><option value="10000">$10,000</option><option value="15000">$15,000</option><option value="20000">$20,000</option><option value="25000">$25,000</option><option value="30000">$30,000</option><option value="35000">$35,000</option><option value="40000">$40,000</option><option value="45000">$45,000</option><option value="50000">$50,000</option><option value="60000">$60,000</option><option value="70000">$70,000</option><option value="80000">$80,000</option><option value="90000">$90,000</option><option value="100000">$100,000</option><option value="125000">$125,000</option><option value="150000">$150,000</option><option value="175000">$175,000</option></select>
+    <label for="price_list_price_max_select" class="sds-label">Max price</label>
+    <spark-svg name="chevron-down" class="sds-text-field__icon" role="presentation"></spark-svg>
+  </div>
+</div>
+
+
+  </div>
+  
+</div>
+      </spark-tab-panel>
+      <spark-tab-panel slot="panel" name="monthly" id="panel-29" role="tabpanel" tabindex="0" hidden="">
+        <span class="inline">
+          <div class="sds-input-container">
+            <div class="input-group currency">
+              <div class="input-group-prepend">
+                <span class="input-group-text">
+                  <i class="fa fa-usd"></i>
+                </span>
+              </div>
+              <span class="currency-symbol-input-wrapper">
+<input aria-label="Enter a Monthly Payment" class="monthly-payment sds-text-field" id="search_form_monthly_payment" inputmode="numeric" maxlength="5" name="monthly_payment" onkeydown="return event.key != 'Enter';" phx-blur="submit_event" phx-keydown="keydown_event" phx-target="93" phx-throttle="750" type="text">
+<label class="sds-label monthly-budget-label" for="search_form_monthly_payment" role="presentation">Max monthly budget</label>
+              </span>
+            </div>
+          </div>
+          <button type="button" class="open-calculator-button btn-disabled" onclick="window.dispatchEvent(new CustomEvent('shopper_financing_open_calc', {detail: {isMobile: 'false' } }))" data-click-intent-id="estimate-monthly-payment-sbp" data-viewability-intent-id="estimate-monthly-payment-sbp-impression" data-custom-click-intent-id="estimate-monthly-payment-sbp" data-linkname="estimate-monthly-payment-sbp" data-activity-rule-type="custom" aria-label="Max monthly budget" onkeypress="if (event.key === &quot;Enter&quot; || event.key === &quot; &quot;) { event.target.onclick(event); }">
+<img src="/svg/generic/calc.svg" role="presentation" aria-hidden="true" tabindex="-1">
+          </button>
+        </span>
+        <div class="disclaimer">
+          <sup>‡</sup>Monthly budget search results are estimated based on a <span id="length-of-loan-value">72-month</span>
+          loan term with $0 down payment, $0 trade-in value,
+10.25% sales tax and 7.0% APR. Inputs
+          can be personalized using the calculator.
+        </div>
+      </spark-tab-panel>
+    </span>
+  </span>
+</span>
+
+  </div>
+  
+</div>
+
+
+<div class="sds-field filter refinement-simple available" data-phx-component="37" id="phx-F3i2NfXkn06qBmrk-37-0">
+  <div class="sds-field " id="deal_rating">
+    <span class="refinement-label-wrapper">
+      <label class="heading" for="" role="presentation">Deal rating</label>
+      
+    </span>
+    
+<fieldset class="sds-field-group">
+
+
+    <div class="sds-field">
+      <div class="sds-checkbox">
+<input class="sds-input" data-activity-rule-type="pageview" data-activitykey="deal_rating_great" data-component="filter-apply" id="deal_rating_great" name="deal_ratings[]" type="checkbox" value="great">
+      <label phx-hook="PriceBadgeFilter" id="price-badge-label-deal_rating_great" for="deal_rating_great" class="sds-label deal-rating-label">
+  <div class="vehicle-badging">
+      <div class="sds-badge sds-badge--icon sds-badge--great">
+    <div class="sds-badge__icon">
+      <spark-svg name="arrow-up" class="sds-text-field__icon" role="presentation"></spark-svg>
+    </div>
+    <span class="sds-badge__label">Great Deal</span>
+  </div>
+
+  </div>
+
+        <span class="filter-count">(1,669)</span>
+      </label>
+      </div>
+    </div>
+
+
+    <div class="sds-field">
+      <div class="sds-checkbox">
+<input class="sds-input" data-activity-rule-type="pageview" data-activitykey="deal_rating_good" data-component="filter-apply" id="deal_rating_good" name="deal_ratings[]" type="checkbox" value="good">
+      <label phx-hook="PriceBadgeFilter" id="price-badge-label-deal_rating_good" for="deal_rating_good" class="sds-label deal-rating-label">
+  <div class="vehicle-badging">
+      <div class="sds-badge sds-badge--icon sds-badge--good">
+    <div class="sds-badge__icon">
+      <spark-svg name="arrow-up-right" class="sds-text-field__icon" role="presentation"></spark-svg>
+    </div>
+    <span class="sds-badge__label">Good Deal</span>
+  </div>
+
+  </div>
+
+        <span class="filter-count">(2,972)</span>
+      </label>
+      </div>
+    </div>
+
+
+    <div class="sds-field">
+      <div class="sds-checkbox">
+<input class="sds-input" data-activity-rule-type="pageview" data-activitykey="deal_rating_fair" data-component="filter-apply" id="deal_rating_fair" name="deal_ratings[]" type="checkbox" value="fair">
+      <label phx-hook="PriceBadgeFilter" id="price-badge-label-deal_rating_fair" for="deal_rating_fair" class="sds-label deal-rating-label">
+  <div class="vehicle-badging">
+      <div class="sds-badge sds-badge--icon sds-badge--fair">
+    <div class="sds-badge__icon">
+      <spark-svg name="arrow-right" class="sds-text-field__icon" role="presentation"></spark-svg>
+    </div>
+    <span class="sds-badge__label">Fair Deal</span>
+  </div>
+
+  </div>
+
+        <span class="filter-count">(1,893)</span>
+      </label>
+      </div>
+    </div>
+
+  </fieldset>
+
+
+  </div>
+  
+</div>
+
+<div class="sds-field filter refinement-simple available" data-phx-component="38" id="phx-F3i2NfXkn06qBmrk-38-0">
+  <div class="sds-field " id="year">
+    <span class="refinement-label-wrapper">
+      
+      
+    </span>
+    
+<div class="flex-container" role="group">
+  <div class="sds-input-container sds-input-container--dropdown">
+
+<select class="sds-text-field" data-activity-rule-type="pageview" data-activitykey="year_year_min_select" data-component="filter-apply" id="year_year_min_select" name="year_min"><option selected="" value="">Oldest</option><option value="2024">2024</option><option value="2023">2023</option><option value="2022">2022</option><option value="2021">2021</option><option value="2020">2020</option><option value="2019">2019</option><option value="2018">2018</option><option value="2017">2017</option><option value="2016">2016</option><option value="2015">2015</option><option value="2014">2014</option><option value="2013">2013</option><option value="2012">2012</option><option value="2011">2011</option><option value="2010">2010</option><option value="2009">2009</option><option value="2008">2008</option><option value="2007">2007</option><option value="2006">2006</option><option value="2005">2005</option><option value="2004">2004</option><option value="2003">2003</option><option value="2002">2002</option><option value="2001">2001</option><option value="2000">2000</option><option value="1999">1999</option><option value="1998">1998</option><option value="1997">1997</option><option value="1996">1996</option><option value="1994">1994</option><option value="1993">1993</option><option value="1991">1991</option><option value="1988">1988</option><option value="1986">1986</option><option value="1984">1984</option><option value="1982">1982</option><option value="1974">1974</option><option value="1973">1973</option><option value="1972">1972</option><option value="1969">1969</option><option value="1968">1968</option><option value="1967">1967</option><option value="1965">1965</option><option value="1956">1956</option></select>
+    <label for="year_year_min_select" class="sds-label">Min year</label>
+    <spark-svg name="chevron-down" class="sds-text-field__icon" role="presentation"></spark-svg>
+  </div>
+  <div class="sds-input-container sds-input-container--dropdown">
+
+<select class="sds-text-field" data-activity-rule-type="pageview" data-activitykey="year_year_max_select" data-component="filter-apply" id="year_year_max_select" name="year_max"><option selected="" value="">Newest</option><option value="2024">2024</option><option value="2023">2023</option><option value="2022">2022</option><option value="2021">2021</option><option value="2020">2020</option><option value="2019">2019</option><option value="2018">2018</option><option value="2017">2017</option><option value="2016">2016</option><option value="2015">2015</option><option value="2014">2014</option><option value="2013">2013</option><option value="2012">2012</option><option value="2011">2011</option><option value="2010">2010</option><option value="2009">2009</option><option value="2008">2008</option><option value="2007">2007</option><option value="2006">2006</option><option value="2005">2005</option><option value="2004">2004</option><option value="2003">2003</option><option value="2002">2002</option><option value="2001">2001</option><option value="2000">2000</option><option value="1999">1999</option><option value="1998">1998</option><option value="1997">1997</option><option value="1996">1996</option><option value="1994">1994</option><option value="1993">1993</option><option value="1991">1991</option><option value="1988">1988</option><option value="1986">1986</option><option value="1984">1984</option><option value="1982">1982</option><option value="1974">1974</option><option value="1973">1973</option><option value="1972">1972</option><option value="1969">1969</option><option value="1968">1968</option><option value="1967">1967</option><option value="1965">1965</option><option value="1956">1956</option></select>
+    <label for="year_year_max_select" class="sds-label">Max year</label>
+    <spark-svg name="chevron-down" class="sds-text-field__icon" role="presentation"></spark-svg>
+  </div>
+</div>
+
+
+  </div>
+  
+</div>
+
+<div class="sds-field filter refinement-simple available" data-phx-component="39" id="phx-F3i2NfXkn06qBmrk-39-0">
+  <div class="sds-field " id="mileage">
+    <span class="refinement-label-wrapper">
+      
+      
+    </span>
+    
+<div class="sds-input-container sds-input-container--dropdown ">
+
+<select class="sds-text-field" data-activity-rule-type="pageview" data-activitykey="mileage-select" data-component="filter-apply" id="mileage-select" name="mileage_max"><option selected="" value="">Any mileage</option><option value="10000">10,000 or less (10,145)</option><option value="20000">20,000 or less (11,076)</option><option value="30000">30,000 or less (12,049)</option><option value="40000">40,000 or less (12,927)</option><option value="50000">50,000 or less (13,636)</option><option value="60000">60,000 or less (14,166)</option><option value="70000">70,000 or less (14,697)</option><option value="80000">80,000 or less (15,042)</option><option value="90000">90,000 or less (15,273)</option><option value="100000">100,000 or less (15,518)</option><option value="150000">150,000 or less (16,078)</option><option value="200000">200,000 or less (16,165)</option><option value="250000">250,000 or less (16,175)</option></select>
+<label class="sds-label" for="mileage-select">Mileage</label>
+  <spark-svg name="chevron-down" class="sds-text-field__icon" role="presentation"></spark-svg>
+</div>
+
+
+  </div>
+  
+</div>
+<div class="sds-field filter refinement-simple available" data-phx-component="40" id="phx-F3i2NfXkn06qBmrk-40-0">
+  <div class="sds-field " id="vehicle_history">
+    <span class="refinement-label-wrapper">
+      <label class="heading" for="" role="presentation">Vehicle history</label>
+      
+    </span>
+    
+
+  <div class="sds-checkbox contactless-services-checkbox">
+    <input class="sds-input" data-activity-rule-type="pageview" data-activitykey="vehicle_history" data-activityvalue="clean_title" data-component="filter-apply" id="clean_title_true" name="clean_title" type="checkbox" value="true">
+    <label for="clean_title_true" class="sds-label">
+      Clean title
+      <span class="filter-count">(6,604)</span>
+    </label>
+  </div>
+
+
+  <div class="sds-checkbox contactless-services-checkbox">
+    <input class="sds-input" data-activity-rule-type="pageview" data-activitykey="vehicle_history" data-activityvalue="no_accidents" data-component="filter-apply" id="no_accidents_true" name="no_accidents" type="checkbox" value="true">
+    <label for="no_accidents_true" class="sds-label">
+      No accidents reported
+      <span class="filter-count">(5,320)</span>
+    </label>
+  </div>
+
+
+  <div class="sds-checkbox contactless-services-checkbox">
+    <input class="sds-input" data-activity-rule-type="pageview" data-activitykey="vehicle_history" data-activityvalue="personal_use" data-component="filter-apply" id="personal_use_true" name="personal_use" type="checkbox" value="true">
+    <label for="personal_use_true" class="sds-label">
+      Personal use only (non fleet)
+      <span class="filter-count">(4,702)</span>
+    </label>
+  </div>
+
+
+  <div class="sds-checkbox contactless-services-checkbox">
+    <input class="sds-input" data-activity-rule-type="pageview" data-activitykey="vehicle_history" data-activityvalue="one_owner" data-component="filter-apply" id="one_owner_true" name="one_owner" type="checkbox" value="true">
+    <label for="one_owner_true" class="sds-label">
+      Single owner
+      <span class="filter-count">(4,114)</span>
+    </label>
+  </div>
+
+
+  </div>
+  
+</div>
+
+  <section class="guided-nav-section " aria-labelledby="title_style">
+    <div class="sds-heading--5 heading" id="title_style">Style</div>
+
+<div class="sds-accordion" data-handler-type="accordion" data-phx-component="41" id="phx-F3i2NfXkn06qBmrk-41-0">
+  <div class="sds-accordion__heading refinement-accordion available">
+    <button type="button" id="trigger_body_styles" class="sds-accordion__trigger js-accordion-trigger" aria-controls="panel_body_styles" aria-expanded="false">
+      Body style
+
+      
+        <spark-svg name="chevron-down" class="sds-accordion__icon" role="presentation"></spark-svg>
+      
+    </button>
+  </div>
+  <div id="panel_body_styles" class="sds-accordion__panel sds-field" aria-labelledby="trigger_body_styles" aria-hidden="true" tabindex="-1">
+    
+<div class="sds-field">
+
+    <div class="sds-checkbox">
+
+<input class="sds-input" data-activity-rule-type="pageview" data-activitykey="body_styles_cargo_van" data-component="filter-apply" id="body_styles_cargo_van" name="body_style_slugs[]" type="checkbox" value="cargo_van" aria-describedby="form_label415" role="presentation" aria-hidden="true" tabindex="-1">
+      <label for="body_styles_cargo_van" class="sds-label" id="form_label415" role="checkbox" tabindex="0">
+
+Cargo Van
+
+          <span class="filter-count">(188)</span>
+
+      </label>
+    </div>
+
+    <div class="sds-checkbox">
+
+<input class="sds-input" data-activity-rule-type="pageview" data-activitykey="body_styles_convertible" data-component="filter-apply" id="body_styles_convertible" name="body_style_slugs[]" type="checkbox" value="convertible" aria-describedby="form_label161" role="presentation" aria-hidden="true" tabindex="-1">
+      <label for="body_styles_convertible" class="sds-label" id="form_label161" role="checkbox" tabindex="0">
+
+Convertible
+
+          <span class="filter-count">(269)</span>
+
+      </label>
+    </div>
+
+    <div class="sds-checkbox">
+
+<input class="sds-input" data-activity-rule-type="pageview" data-activitykey="body_styles_coupe" data-component="filter-apply" id="body_styles_coupe" name="body_style_slugs[]" type="checkbox" value="coupe" aria-describedby="form_label541" role="presentation" aria-hidden="true" tabindex="-1">
+      <label for="body_styles_coupe" class="sds-label" id="form_label541" role="checkbox" tabindex="0">
+
+Coupe
+
+          <span class="filter-count">(530)</span>
+
+      </label>
+    </div>
+
+    <div class="sds-checkbox">
+
+<input class="sds-input" data-activity-rule-type="pageview" data-activitykey="body_styles_hatchback" data-component="filter-apply" id="body_styles_hatchback" name="body_style_slugs[]" type="checkbox" value="hatchback" aria-describedby="form_label491" role="presentation" aria-hidden="true" tabindex="-1">
+      <label for="body_styles_hatchback" class="sds-label" id="form_label491" role="checkbox" tabindex="0">
+
+Hatchback
+
+          <span class="filter-count">(874)</span>
+
+      </label>
+    </div>
+
+    <div class="sds-checkbox">
+
+<input class="sds-input" data-activity-rule-type="pageview" data-activitykey="body_styles_minivan" data-component="filter-apply" id="body_styles_minivan" name="body_style_slugs[]" type="checkbox" value="minivan" aria-describedby="form_label443" role="presentation" aria-hidden="true" tabindex="-1">
+      <label for="body_styles_minivan" class="sds-label" id="form_label443" role="checkbox" tabindex="0">
+
+Minivan
+
+          <span class="filter-count">(52)</span>
+
+      </label>
+    </div>
+
+    <div class="sds-checkbox">
+
+<input class="sds-input" data-activity-rule-type="pageview" data-activitykey="body_styles_passenger_van" data-component="filter-apply" id="body_styles_passenger_van" name="body_style_slugs[]" type="checkbox" value="passenger_van" aria-describedby="form_label337" role="presentation" aria-hidden="true" tabindex="-1">
+      <label for="body_styles_passenger_van" class="sds-label" id="form_label337" role="checkbox" tabindex="0">
+
+Passenger Van
+
+          <span class="filter-count">(246)</span>
+
+      </label>
+    </div>
+
+    <div class="sds-checkbox">
+
+<input class="sds-input" data-activity-rule-type="pageview" data-activitykey="body_styles_pickup_truck" data-component="filter-apply" id="body_styles_pickup_truck" name="body_style_slugs[]" type="checkbox" value="pickup_truck" aria-describedby="form_label510" role="presentation" aria-hidden="true" tabindex="-1">
+      <label for="body_styles_pickup_truck" class="sds-label" id="form_label510" role="checkbox" tabindex="0">
+
+Pickup Truck
+
+          <span class="filter-count">(1,507)</span>
+
+      </label>
+    </div>
+
+    <div class="sds-checkbox">
+
+<input class="sds-input" data-activity-rule-type="pageview" data-activitykey="body_styles_suv" data-component="filter-apply" id="body_styles_suv" name="body_style_slugs[]" type="checkbox" value="suv" aria-describedby="form_label416" role="presentation" aria-hidden="true" tabindex="-1">
+      <label for="body_styles_suv" class="sds-label" id="form_label416" role="checkbox" tabindex="0">
+
+SUV
+
+          <span class="filter-count">(8,933)</span>
+
+      </label>
+    </div>
+
+    <div class="sds-checkbox">
+
+<input class="sds-input" data-activity-rule-type="pageview" data-activitykey="body_styles_sedan" data-component="filter-apply" id="body_styles_sedan" name="body_style_slugs[]" type="checkbox" value="sedan" aria-describedby="form_label68" role="presentation" aria-hidden="true" tabindex="-1">
+      <label for="body_styles_sedan" class="sds-label" id="form_label68" role="checkbox" tabindex="0">
+
+Sedan
+
+          <span class="filter-count">(4,086)</span>
+
+      </label>
+    </div>
+
+    <div class="sds-checkbox">
+
+<input class="sds-input" data-activity-rule-type="pageview" data-activitykey="body_styles_wagon" data-component="filter-apply" id="body_styles_wagon" name="body_style_slugs[]" type="checkbox" value="wagon" aria-describedby="form_label512" role="presentation" aria-hidden="true" tabindex="-1">
+      <label for="body_styles_wagon" class="sds-label" id="form_label512" role="checkbox" tabindex="0">
+
+Wagon
+
+          <span class="filter-count">(140)</span>
+
+      </label>
+    </div>
+
+</div>
+
+
+  </div>
+</div>
+
+<div class="sds-accordion" data-handler-type="accordion" data-phx-component="42" id="phx-F3i2NfXkn06qBmrk-42-0">
+  <div class="sds-accordion__heading refinement-accordion available">
+    <button type="button" id="trigger_cab_types" class="sds-accordion__trigger js-accordion-trigger" aria-controls="panel_cab_types" aria-expanded="false">
+      Cab type
+
+      
+        <spark-svg name="chevron-down" class="sds-accordion__icon" role="presentation"></spark-svg>
+      
+    </button>
+  </div>
+  <div id="panel_cab_types" class="sds-accordion__panel sds-field" aria-labelledby="trigger_cab_types" aria-hidden="true" tabindex="-1">
+    
+<div class="sds-field">
+
+    <div class="sds-checkbox">
+
+<input class="sds-input" data-activity-rule-type="pageview" data-activitykey="cab_types_crew_cab" data-component="filter-apply" id="cab_types_crew_cab" name="cab_type_slugs[]" type="checkbox" value="crew_cab" aria-describedby="form_label843" role="presentation" aria-hidden="true" tabindex="-1">
+      <label for="cab_types_crew_cab" class="sds-label" id="form_label843" role="checkbox" tabindex="0">
+
+Crew
+
+          <span class="filter-count">(1,335)</span>
+
+      </label>
+    </div>
+
+    <div class="sds-checkbox">
+
+<input class="sds-input" data-activity-rule-type="pageview" data-activitykey="cab_types_extended_cab" data-component="filter-apply" id="cab_types_extended_cab" name="cab_type_slugs[]" type="checkbox" value="extended_cab" aria-describedby="form_label599" role="presentation" aria-hidden="true" tabindex="-1">
+      <label for="cab_types_extended_cab" class="sds-label" id="form_label599" role="checkbox" tabindex="0">
+
+Extended
+
+          <span class="filter-count">(122)</span>
+
+      </label>
+    </div>
+
+    <div class="sds-checkbox">
+
+<input class="sds-input" data-activity-rule-type="pageview" data-activitykey="cab_types_regular_cab" data-component="filter-apply" id="cab_types_regular_cab" name="cab_type_slugs[]" type="checkbox" value="regular_cab" aria-describedby="form_label663" role="presentation" aria-hidden="true" tabindex="-1">
+      <label for="cab_types_regular_cab" class="sds-label" id="form_label663" role="checkbox" tabindex="0">
+
+Regular
+
+          <span class="filter-count">(50)</span>
+
+      </label>
+    </div>
+
+</div>
+
+
+  </div>
+</div>
+
+<div class="sds-accordion" data-handler-type="accordion" data-phx-component="43" id="phx-F3i2NfXkn06qBmrk-43-0">
+  <div class="sds-accordion__heading refinement-accordion available">
+    <button type="button" id="trigger_exterior_colors" class="sds-accordion__trigger js-accordion-trigger" aria-controls="panel_exterior_colors" aria-expanded="false">
+      Exterior color
+
+      
+        <spark-svg name="chevron-down" class="sds-accordion__icon" role="presentation"></spark-svg>
+      
+    </button>
+  </div>
+  <div id="panel_exterior_colors" class="sds-accordion__panel sds-field" aria-labelledby="trigger_exterior_colors" aria-hidden="true" tabindex="-1">
+    
+<div class="sds-field">
+
+    <div class="sds-checkbox">
+
+<input class="sds-input" data-activity-rule-type="pageview" data-activitykey="exterior_colors_beige" data-component="filter-apply" id="exterior_colors_beige" name="exterior_color_slugs[]" type="checkbox" value="beige" aria-describedby="form_label409" role="presentation" aria-hidden="true" tabindex="-1">
+      <label for="exterior_colors_beige" class="sds-label" id="form_label409" role="checkbox" tabindex="0">
+
+          <div class="color-swatch" style="background: beige"></div>
+
+Beige
+
+          <span class="filter-count">(99)</span>
+
+      </label>
+    </div>
+
+    <div class="sds-checkbox">
+
+<input class="sds-input" data-activity-rule-type="pageview" data-activitykey="exterior_colors_black" data-component="filter-apply" id="exterior_colors_black" name="exterior_color_slugs[]" type="checkbox" value="black" aria-describedby="form_label769" role="presentation" aria-hidden="true" tabindex="-1">
+      <label for="exterior_colors_black" class="sds-label" id="form_label769" role="checkbox" tabindex="0">
+
+          <div class="color-swatch" style="background: black"></div>
+
+Black
+
+          <span class="filter-count">(3,310)</span>
+
+      </label>
+    </div>
+
+    <div class="sds-checkbox">
+
+<input class="sds-input" data-activity-rule-type="pageview" data-activitykey="exterior_colors_blue" data-component="filter-apply" id="exterior_colors_blue" name="exterior_color_slugs[]" type="checkbox" value="blue" aria-describedby="form_label45" role="presentation" aria-hidden="true" tabindex="-1">
+      <label for="exterior_colors_blue" class="sds-label" id="form_label45" role="checkbox" tabindex="0">
+
+          <div class="color-swatch" style="background: blue"></div>
+
+Blue
+
+          <span class="filter-count">(1,419)</span>
+
+      </label>
+    </div>
+
+    <div class="sds-checkbox">
+
+<input class="sds-input" data-activity-rule-type="pageview" data-activitykey="exterior_colors_brown" data-component="filter-apply" id="exterior_colors_brown" name="exterior_color_slugs[]" type="checkbox" value="brown" aria-describedby="form_label549" role="presentation" aria-hidden="true" tabindex="-1">
+      <label for="exterior_colors_brown" class="sds-label" id="form_label549" role="checkbox" tabindex="0">
+
+          <div class="color-swatch" style="background: brown"></div>
+
+Brown
+
+          <span class="filter-count">(139)</span>
+
+      </label>
+    </div>
+
+    <div class="sds-checkbox">
+
+<input class="sds-input" data-activity-rule-type="pageview" data-activitykey="exterior_colors_gold" data-component="filter-apply" id="exterior_colors_gold" name="exterior_color_slugs[]" type="checkbox" value="gold" aria-describedby="form_label5" role="presentation" aria-hidden="true" tabindex="-1">
+      <label for="exterior_colors_gold" class="sds-label" id="form_label5" role="checkbox" tabindex="0">
+
+          <div class="color-swatch" style="background: gold"></div>
+
+Gold
+
+          <span class="filter-count">(32)</span>
+
+      </label>
+    </div>
+
+    <div class="sds-checkbox">
+
+<input class="sds-input" data-activity-rule-type="pageview" data-activitykey="exterior_colors_gray" data-component="filter-apply" id="exterior_colors_gray" name="exterior_color_slugs[]" type="checkbox" value="gray" aria-describedby="form_label784" role="presentation" aria-hidden="true" tabindex="-1">
+      <label for="exterior_colors_gray" class="sds-label" id="form_label784" role="checkbox" tabindex="0">
+
+          <div class="color-swatch" style="background: gray"></div>
+
+Gray
+
+          <span class="filter-count">(3,652)</span>
+
+      </label>
+    </div>
+
+    <div class="sds-checkbox">
+
+<input class="sds-input" data-activity-rule-type="pageview" data-activitykey="exterior_colors_green" data-component="filter-apply" id="exterior_colors_green" name="exterior_color_slugs[]" type="checkbox" value="green" aria-describedby="form_label413" role="presentation" aria-hidden="true" tabindex="-1">
+      <label for="exterior_colors_green" class="sds-label" id="form_label413" role="checkbox" tabindex="0">
+
+          <div class="color-swatch" style="background: green"></div>
+
+Green
+
+          <span class="filter-count">(367)</span>
+
+      </label>
+    </div>
+
+    <div class="sds-checkbox">
+
+<input class="sds-input" data-activity-rule-type="pageview" data-activitykey="exterior_colors_orange" data-component="filter-apply" id="exterior_colors_orange" name="exterior_color_slugs[]" type="checkbox" value="orange" aria-describedby="form_label267" role="presentation" aria-hidden="true" tabindex="-1">
+      <label for="exterior_colors_orange" class="sds-label" id="form_label267" role="checkbox" tabindex="0">
+
+          <div class="color-swatch" style="background: orange"></div>
+
+Orange
+
+          <span class="filter-count">(74)</span>
+
+      </label>
+    </div>
+
+    <div class="sds-checkbox">
+
+<input class="sds-input" data-activity-rule-type="pageview" data-activitykey="exterior_colors_purple" data-component="filter-apply" id="exterior_colors_purple" name="exterior_color_slugs[]" type="checkbox" value="purple" aria-describedby="form_label675" role="presentation" aria-hidden="true" tabindex="-1">
+      <label for="exterior_colors_purple" class="sds-label" id="form_label675" role="checkbox" tabindex="0">
+
+          <div class="color-swatch" style="background: purple"></div>
+
+Purple
+
+          <span class="filter-count">(16)</span>
+
+      </label>
+    </div>
+
+    <div class="sds-checkbox">
+
+<input class="sds-input" data-activity-rule-type="pageview" data-activitykey="exterior_colors_red" data-component="filter-apply" id="exterior_colors_red" name="exterior_color_slugs[]" type="checkbox" value="red" aria-describedby="form_label326" role="presentation" aria-hidden="true" tabindex="-1">
+      <label for="exterior_colors_red" class="sds-label" id="form_label326" role="checkbox" tabindex="0">
+
+          <div class="color-swatch" style="background: red"></div>
+
+Red
+
+          <span class="filter-count">(923)</span>
+
+      </label>
+    </div>
+
+    <div class="sds-checkbox">
+
+<input class="sds-input" data-activity-rule-type="pageview" data-activitykey="exterior_colors_silver" data-component="filter-apply" id="exterior_colors_silver" name="exterior_color_slugs[]" type="checkbox" value="silver" aria-describedby="form_label3" role="presentation" aria-hidden="true" tabindex="-1">
+      <label for="exterior_colors_silver" class="sds-label" id="form_label3" role="checkbox" tabindex="0">
+
+          <div class="color-swatch" style="background: silver"></div>
+
+Silver
+
+          <span class="filter-count">(1,544)</span>
+
+      </label>
+    </div>
+
+    <div class="sds-checkbox">
+
+<input class="sds-input" data-activity-rule-type="pageview" data-activitykey="exterior_colors_white" data-component="filter-apply" id="exterior_colors_white" name="exterior_color_slugs[]" type="checkbox" value="white" aria-describedby="form_label962" role="presentation" aria-hidden="true" tabindex="-1">
+      <label for="exterior_colors_white" class="sds-label" id="form_label962" role="checkbox" tabindex="0">
+
+          <div class="color-swatch" style="background: white"></div>
+
+White
+
+          <span class="filter-count">(4,647)</span>
+
+      </label>
+    </div>
+
+    <div class="sds-checkbox">
+
+<input class="sds-input" data-activity-rule-type="pageview" data-activitykey="exterior_colors_yellow" data-component="filter-apply" id="exterior_colors_yellow" name="exterior_color_slugs[]" type="checkbox" value="yellow" aria-describedby="form_label649" role="presentation" aria-hidden="true" tabindex="-1">
+      <label for="exterior_colors_yellow" class="sds-label" id="form_label649" role="checkbox" tabindex="0">
+
+          <div class="color-swatch" style="background: yellow"></div>
+
+Yellow
+
+          <span class="filter-count">(53)</span>
+
+      </label>
+    </div>
+
+</div>
+
+
+  </div>
+</div>
+
+<div class="sds-accordion" data-handler-type="accordion" data-phx-component="44" id="phx-F3i2NfXkn06qBmrk-44-0">
+  <div class="sds-accordion__heading refinement-accordion available">
+    <button type="button" id="trigger_interior_colors" class="sds-accordion__trigger js-accordion-trigger" aria-controls="panel_interior_colors" aria-expanded="false">
+      Interior color
+
+      
+        <spark-svg name="chevron-down" class="sds-accordion__icon" role="presentation"></spark-svg>
+      
+    </button>
+  </div>
+  <div id="panel_interior_colors" class="sds-accordion__panel sds-field" aria-labelledby="trigger_interior_colors" aria-hidden="true" tabindex="-1">
+    
+<div class="sds-field">
+
+    <div class="sds-checkbox">
+
+<input class="sds-input" data-activity-rule-type="pageview" data-activitykey="interior_colors_beige" data-component="filter-apply" id="interior_colors_beige" name="interior_color_slugs[]" type="checkbox" value="beige" aria-describedby="form_label799" role="presentation" aria-hidden="true" tabindex="-1">
+      <label for="interior_colors_beige" class="sds-label" id="form_label799" role="checkbox" tabindex="0">
+
+          <div class="color-swatch" style="background: beige"></div>
+
+Beige
+
+          <span class="filter-count">(983)</span>
+
+      </label>
+    </div>
+
+    <div class="sds-checkbox">
+
+<input class="sds-input" data-activity-rule-type="pageview" data-activitykey="interior_colors_black" data-component="filter-apply" id="interior_colors_black" name="interior_color_slugs[]" type="checkbox" value="black" aria-describedby="form_label641" role="presentation" aria-hidden="true" tabindex="-1">
+      <label for="interior_colors_black" class="sds-label" id="form_label641" role="checkbox" tabindex="0">
+
+          <div class="color-swatch" style="background: black"></div>
+
+Black
+
+          <span class="filter-count">(9,987)</span>
+
+      </label>
+    </div>
+
+    <div class="sds-checkbox">
+
+<input class="sds-input" data-activity-rule-type="pageview" data-activitykey="interior_colors_blue" data-component="filter-apply" id="interior_colors_blue" name="interior_color_slugs[]" type="checkbox" value="blue" aria-describedby="form_label633" role="presentation" aria-hidden="true" tabindex="-1">
+      <label for="interior_colors_blue" class="sds-label" id="form_label633" role="checkbox" tabindex="0">
+
+          <div class="color-swatch" style="background: blue"></div>
+
+Blue
+
+          <span class="filter-count">(67)</span>
+
+      </label>
+    </div>
+
+    <div class="sds-checkbox">
+
+<input class="sds-input" data-activity-rule-type="pageview" data-activitykey="interior_colors_brown" data-component="filter-apply" id="interior_colors_brown" name="interior_color_slugs[]" type="checkbox" value="brown" aria-describedby="form_label562" role="presentation" aria-hidden="true" tabindex="-1">
+      <label for="interior_colors_brown" class="sds-label" id="form_label562" role="checkbox" tabindex="0">
+
+          <div class="color-swatch" style="background: brown"></div>
+
+Brown
+
+          <span class="filter-count">(672)</span>
+
+      </label>
+    </div>
+
+    <div class="sds-checkbox">
+
+<input class="sds-input" data-activity-rule-type="pageview" data-activitykey="interior_colors_gray" data-component="filter-apply" id="interior_colors_gray" name="interior_color_slugs[]" type="checkbox" value="gray" aria-describedby="form_label680" role="presentation" aria-hidden="true" tabindex="-1">
+      <label for="interior_colors_gray" class="sds-label" id="form_label680" role="checkbox" tabindex="0">
+
+          <div class="color-swatch" style="background: gray"></div>
+
+Gray
+
+          <span class="filter-count">(2,713)</span>
+
+      </label>
+    </div>
+
+    <div class="sds-checkbox">
+
+<input class="sds-input" data-activity-rule-type="pageview" data-activitykey="interior_colors_green" data-component="filter-apply" id="interior_colors_green" name="interior_color_slugs[]" type="checkbox" value="green" aria-describedby="form_label331" role="presentation" aria-hidden="true" tabindex="-1">
+      <label for="interior_colors_green" class="sds-label" id="form_label331" role="checkbox" tabindex="0">
+
+          <div class="color-swatch" style="background: green"></div>
+
+Green
+
+          <span class="filter-count">(16)</span>
+
+      </label>
+    </div>
+
+    <div class="sds-checkbox">
+
+<input class="sds-input" data-activity-rule-type="pageview" data-activitykey="interior_colors_orange" data-component="filter-apply" id="interior_colors_orange" name="interior_color_slugs[]" type="checkbox" value="orange" aria-describedby="form_label334" role="presentation" aria-hidden="true" tabindex="-1">
+      <label for="interior_colors_orange" class="sds-label" id="form_label334" role="checkbox" tabindex="0">
+
+          <div class="color-swatch" style="background: orange"></div>
+
+Orange
+
+          <span class="filter-count">(116)</span>
+
+      </label>
+    </div>
+
+    <div class="sds-checkbox">
+
+<input class="sds-input" data-activity-rule-type="pageview" data-activitykey="interior_colors_purple" data-component="filter-apply" id="interior_colors_purple" name="interior_color_slugs[]" type="checkbox" value="purple" aria-describedby="form_label434" role="presentation" aria-hidden="true" tabindex="-1">
+      <label for="interior_colors_purple" class="sds-label" id="form_label434" role="checkbox" tabindex="0">
+
+          <div class="color-swatch" style="background: purple"></div>
+
+Purple
+
+          <span class="filter-count">(1)</span>
+
+      </label>
+    </div>
+
+    <div class="sds-checkbox">
+
+<input class="sds-input" data-activity-rule-type="pageview" data-activitykey="interior_colors_red" data-component="filter-apply" id="interior_colors_red" name="interior_color_slugs[]" type="checkbox" value="red" aria-describedby="form_label390" role="presentation" aria-hidden="true" tabindex="-1">
+      <label for="interior_colors_red" class="sds-label" id="form_label390" role="checkbox" tabindex="0">
+
+          <div class="color-swatch" style="background: red"></div>
+
+Red
+
+          <span class="filter-count">(456)</span>
+
+      </label>
+    </div>
+
+    <div class="sds-checkbox">
+
+<input class="sds-input" data-activity-rule-type="pageview" data-activitykey="interior_colors_silver" data-component="filter-apply" id="interior_colors_silver" name="interior_color_slugs[]" type="checkbox" value="silver" aria-describedby="form_label604" role="presentation" aria-hidden="true" tabindex="-1">
+      <label for="interior_colors_silver" class="sds-label" id="form_label604" role="checkbox" tabindex="0">
+
+          <div class="color-swatch" style="background: silver"></div>
+
+Silver
+
+          <span class="filter-count">(21)</span>
+
+      </label>
+    </div>
+
+    <div class="sds-checkbox">
+
+<input class="sds-input" data-activity-rule-type="pageview" data-activitykey="interior_colors_white" data-component="filter-apply" id="interior_colors_white" name="interior_color_slugs[]" type="checkbox" value="white" aria-describedby="form_label855" role="presentation" aria-hidden="true" tabindex="-1">
+      <label for="interior_colors_white" class="sds-label" id="form_label855" role="checkbox" tabindex="0">
+
+          <div class="color-swatch" style="background: white"></div>
+
+White
+
+          <span class="filter-count">(170)</span>
+
+      </label>
+    </div>
+
+    <div class="sds-checkbox">
+
+<input class="sds-input" data-activity-rule-type="pageview" data-activitykey="interior_colors_yellow" data-component="filter-apply" id="interior_colors_yellow" name="interior_color_slugs[]" type="checkbox" value="yellow" aria-describedby="form_label607" role="presentation" aria-hidden="true" tabindex="-1">
+      <label for="interior_colors_yellow" class="sds-label" id="form_label607" role="checkbox" tabindex="0">
+
+          <div class="color-swatch" style="background: yellow"></div>
+
+Yellow
+
+          <span class="filter-count">(1)</span>
+
+      </label>
+    </div>
+
+</div>
+
+
+  </div>
+</div>
+  </section>
+
+  <section class="guided-nav-section " aria-labelledby="title_performance">
+    <div class="sds-heading--5 heading" id="title_performance">Performance</div>
+
+<div class="sds-accordion" data-handler-type="accordion" data-phx-component="45" id="phx-F3i2NfXkn06qBmrk-45-0">
+  <div class="sds-accordion__heading refinement-accordion available">
+    <button type="button" id="trigger_transmissions" class="sds-accordion__trigger js-accordion-trigger" aria-controls="panel_transmissions" aria-expanded="false">
+      Transmission
+
+      
+        <spark-svg name="chevron-down" class="sds-accordion__icon" role="presentation"></spark-svg>
+      
+    </button>
+  </div>
+  <div id="panel_transmissions" class="sds-accordion__panel sds-field" aria-labelledby="trigger_transmissions" aria-hidden="true" tabindex="-1">
+    
+<div class="sds-field">
+
+    <div class="sds-checkbox">
+
+<input class="sds-input" data-activity-rule-type="pageview" data-activitykey="transmissions_automanual" data-component="filter-apply" id="transmissions_automanual" name="transmission_slugs[]" type="checkbox" value="automanual" aria-describedby="form_label791" role="presentation" aria-hidden="true" tabindex="-1">
+      <label for="transmissions_automanual" class="sds-label" id="form_label791" role="checkbox" tabindex="0">
+
+Automanual
+
+          <span class="filter-count">(1)</span>
+
+      </label>
+    </div>
+
+    <div class="sds-checkbox">
+
+<input class="sds-input" data-activity-rule-type="pageview" data-activitykey="transmissions_automatic" data-component="filter-apply" id="transmissions_automatic" name="transmission_slugs[]" type="checkbox" value="automatic" aria-describedby="form_label483" role="presentation" aria-hidden="true" tabindex="-1">
+      <label for="transmissions_automatic" class="sds-label" id="form_label483" role="checkbox" tabindex="0">
+
+Automatic
+
+          <span class="filter-count">(11,569)</span>
+
+      </label>
+    </div>
+
+    <div class="sds-checkbox">
+
+<input class="sds-input" data-activity-rule-type="pageview" data-activitykey="transmissions_cvt" data-component="filter-apply" id="transmissions_cvt" name="transmission_slugs[]" type="checkbox" value="cvt" aria-describedby="form_label813" role="presentation" aria-hidden="true" tabindex="-1">
+      <label for="transmissions_cvt" class="sds-label" id="form_label813" role="checkbox" tabindex="0">
+
+CVT
+
+          <span class="filter-count">(2,710)</span>
+
+      </label>
+    </div>
+
+    <div class="sds-checkbox">
+
+<input class="sds-input" data-activity-rule-type="pageview" data-activitykey="transmissions_manual" data-component="filter-apply" id="transmissions_manual" name="transmission_slugs[]" type="checkbox" value="manual" aria-describedby="form_label472" role="presentation" aria-hidden="true" tabindex="-1">
+      <label for="transmissions_manual" class="sds-label" id="form_label472" role="checkbox" tabindex="0">
+
+Manual
+
+          <span class="filter-count">(319)</span>
+
+      </label>
+    </div>
+
+    <div class="sds-checkbox">
+
+<input class="sds-input" data-activity-rule-type="pageview" data-activitykey="transmissions_unknown" data-component="filter-apply" id="transmissions_unknown" name="transmission_slugs[]" type="checkbox" value="unknown" aria-describedby="form_label380" role="presentation" aria-hidden="true" tabindex="-1">
+      <label for="transmissions_unknown" class="sds-label" id="form_label380" role="checkbox" tabindex="0">
+
+Unknown
+
+          <span class="filter-count">(414)</span>
+
+      </label>
+    </div>
+
+</div>
+
+
+  </div>
+</div>
+
+<div class="sds-accordion" data-handler-type="accordion" data-phx-component="46" id="phx-F3i2NfXkn06qBmrk-46-0">
+  <div class="sds-accordion__heading refinement-accordion available">
+    <button type="button" id="trigger_drivetrains" class="sds-accordion__trigger js-accordion-trigger" aria-controls="panel_drivetrains" aria-expanded="false">
+      Drivetrain
+
+      
+        <spark-svg name="chevron-down" class="sds-accordion__icon" role="presentation"></spark-svg>
+      
+    </button>
+  </div>
+  <div id="panel_drivetrains" class="sds-accordion__panel sds-field" aria-labelledby="trigger_drivetrains" aria-hidden="true" tabindex="-1">
+    
+<div class="sds-field">
+
+    <div class="sds-checkbox">
+
+<input class="sds-input" data-activity-rule-type="pageview" data-activitykey="drivetrains_all_wheel_drive" data-component="filter-apply" id="drivetrains_all_wheel_drive" name="drivetrain_slugs[]" type="checkbox" value="all_wheel_drive" aria-describedby="form_label34" role="presentation" aria-hidden="true" tabindex="-1">
+      <label for="drivetrains_all_wheel_drive" class="sds-label" id="form_label34" role="checkbox" tabindex="0">
+
+All-wheel Drive
+
+          <span class="filter-count">(5,873)</span>
+
+      </label>
+    </div>
+
+    <div class="sds-checkbox">
+
+<input class="sds-input" data-activity-rule-type="pageview" data-activitykey="drivetrains_four_wheel_drive" data-component="filter-apply" id="drivetrains_four_wheel_drive" name="drivetrain_slugs[]" type="checkbox" value="four_wheel_drive" aria-describedby="form_label686" role="presentation" aria-hidden="true" tabindex="-1">
+      <label for="drivetrains_four_wheel_drive" class="sds-label" id="form_label686" role="checkbox" tabindex="0">
+
+Four-wheel Drive
+
+          <span class="filter-count">(2,336)</span>
+
+      </label>
+    </div>
+
+    <div class="sds-checkbox">
+
+<input class="sds-input" data-activity-rule-type="pageview" data-activitykey="drivetrains_front_wheel_drive" data-component="filter-apply" id="drivetrains_front_wheel_drive" name="drivetrain_slugs[]" type="checkbox" value="front_wheel_drive" aria-describedby="form_label133" role="presentation" aria-hidden="true" tabindex="-1">
+      <label for="drivetrains_front_wheel_drive" class="sds-label" id="form_label133" role="checkbox" tabindex="0">
+
+Front-wheel Drive
+
+          <span class="filter-count">(4,285)</span>
+
+      </label>
+    </div>
+
+    <div class="sds-checkbox">
+
+<input class="sds-input" data-activity-rule-type="pageview" data-activitykey="drivetrains_rear_wheel_drive" data-component="filter-apply" id="drivetrains_rear_wheel_drive" name="drivetrain_slugs[]" type="checkbox" value="rear_wheel_drive" aria-describedby="form_label852" role="presentation" aria-hidden="true" tabindex="-1">
+      <label for="drivetrains_rear_wheel_drive" class="sds-label" id="form_label852" role="checkbox" tabindex="0">
+
+Rear-wheel Drive
+
+          <span class="filter-count">(2,328)</span>
+
+      </label>
+    </div>
+
+    <div class="sds-checkbox">
+
+<input class="sds-input" data-activity-rule-type="pageview" data-activitykey="drivetrains_unknown" data-component="filter-apply" id="drivetrains_unknown" name="drivetrain_slugs[]" type="checkbox" value="unknown" aria-describedby="form_label465" role="presentation" aria-hidden="true" tabindex="-1">
+      <label for="drivetrains_unknown" class="sds-label" id="form_label465" role="checkbox" tabindex="0">
+
+Unknown
+
+          <span class="filter-count">(1)</span>
+
+      </label>
+    </div>
+
+</div>
+
+
+  </div>
+</div>
+
+<div class="sds-accordion" data-handler-type="accordion" data-phx-component="47" id="phx-F3i2NfXkn06qBmrk-47-0">
+  <div class="sds-accordion__heading refinement-accordion available">
+    <button type="button" id="trigger_cylinders" class="sds-accordion__trigger js-accordion-trigger" aria-controls="panel_cylinders" aria-expanded="false">
+      Cylinders
+
+      
+        <spark-svg name="chevron-down" class="sds-accordion__icon" role="presentation"></spark-svg>
+      
+    </button>
+  </div>
+  <div id="panel_cylinders" class="sds-accordion__panel sds-field" aria-labelledby="trigger_cylinders" aria-hidden="true" tabindex="-1">
+    
+<div class="sds-field">
+
+    <div class="sds-checkbox">
+
+<input class="sds-input" data-activity-rule-type="pageview" data-activitykey="cylinders_3" data-component="filter-apply" id="cylinders_3" name="cylinder_counts[]" type="checkbox" value="3" aria-describedby="form_label438" role="presentation" aria-hidden="true" tabindex="-1">
+      <label for="cylinders_3" class="sds-label" id="form_label438" role="checkbox" tabindex="0">
+
+3 cylinders
+
+          <span class="filter-count">(279)</span>
+
+      </label>
+    </div>
+
+    <div class="sds-checkbox">
+
+<input class="sds-input" data-activity-rule-type="pageview" data-activitykey="cylinders_4" data-component="filter-apply" id="cylinders_4" name="cylinder_counts[]" type="checkbox" value="4" aria-describedby="form_label427" role="presentation" aria-hidden="true" tabindex="-1">
+      <label for="cylinders_4" class="sds-label" id="form_label427" role="checkbox" tabindex="0">
+
+4 cylinders
+
+          <span class="filter-count">(8,337)</span>
+
+      </label>
+    </div>
+
+    <div class="sds-checkbox">
+
+<input class="sds-input" data-activity-rule-type="pageview" data-activitykey="cylinders_5" data-component="filter-apply" id="cylinders_5" name="cylinder_counts[]" type="checkbox" value="5" aria-describedby="form_label329" role="presentation" aria-hidden="true" tabindex="-1">
+      <label for="cylinders_5" class="sds-label" id="form_label329" role="checkbox" tabindex="0">
+
+5 cylinders
+
+          <span class="filter-count">(8)</span>
+
+      </label>
+    </div>
+
+    <div class="sds-checkbox">
+
+<input class="sds-input" data-activity-rule-type="pageview" data-activitykey="cylinders_6" data-component="filter-apply" id="cylinders_6" name="cylinder_counts[]" type="checkbox" value="6" aria-describedby="form_label89" role="presentation" aria-hidden="true" tabindex="-1">
+      <label for="cylinders_6" class="sds-label" id="form_label89" role="checkbox" tabindex="0">
+
+6 cylinders
+
+          <span class="filter-count">(3,977)</span>
+
+      </label>
+    </div>
+
+    <div class="sds-checkbox">
+
+<input class="sds-input" data-activity-rule-type="pageview" data-activitykey="cylinders_8" data-component="filter-apply" id="cylinders_8" name="cylinder_counts[]" type="checkbox" value="8" aria-describedby="form_label182" role="presentation" aria-hidden="true" tabindex="-1">
+      <label for="cylinders_8" class="sds-label" id="form_label182" role="checkbox" tabindex="0">
+
+8 cylinders
+
+          <span class="filter-count">(1,430)</span>
+
+      </label>
+    </div>
+
+    <div class="sds-checkbox">
+
+<input class="sds-input" data-activity-rule-type="pageview" data-activitykey="cylinders_10" data-component="filter-apply" id="cylinders_10" name="cylinder_counts[]" type="checkbox" value="10" aria-describedby="form_label363" role="presentation" aria-hidden="true" tabindex="-1">
+      <label for="cylinders_10" class="sds-label" id="form_label363" role="checkbox" tabindex="0">
+
+10 cylinders
+
+          <span class="filter-count">(21)</span>
+
+      </label>
+    </div>
+
+    <div class="sds-checkbox">
+
+<input class="sds-input" data-activity-rule-type="pageview" data-activitykey="cylinders_12" data-component="filter-apply" id="cylinders_12" name="cylinder_counts[]" type="checkbox" value="12" aria-describedby="form_label278" role="presentation" aria-hidden="true" tabindex="-1">
+      <label for="cylinders_12" class="sds-label" id="form_label278" role="checkbox" tabindex="0">
+
+12 cylinders
+
+          <span class="filter-count">(34)</span>
+
+      </label>
+    </div>
+
+    <div class="sds-checkbox">
+
+<input class="sds-input" data-activity-rule-type="pageview" data-activitykey="cylinders_0" data-component="filter-apply" id="cylinders_0" name="cylinder_counts[]" type="checkbox" value="0" aria-describedby="form_label459" role="presentation" aria-hidden="true" tabindex="-1">
+      <label for="cylinders_0" class="sds-label" id="form_label459" role="checkbox" tabindex="0">
+
+Unknown
+
+          <span class="filter-count">(18)</span>
+
+      </label>
+    </div>
+
+</div>
+
+
+  </div>
+</div>
+
+<div class="sds-accordion" data-handler-type="accordion" data-phx-component="48" id="phx-F3i2NfXkn06qBmrk-48-0">
+  <div class="sds-accordion__heading refinement-accordion available">
+    <button type="button" id="trigger_fuel_types" class="sds-accordion__trigger js-accordion-trigger" aria-controls="panel_fuel_types" aria-expanded="false">
+      Fuel type
+
+      
+        <spark-svg name="chevron-down" class="sds-accordion__icon" role="presentation"></spark-svg>
+      
+    </button>
+  </div>
+  <div id="panel_fuel_types" class="sds-accordion__panel sds-field" aria-labelledby="trigger_fuel_types" aria-hidden="true" tabindex="-1">
+    
+<div class="sds-field">
+
+    <div class="sds-checkbox">
+
+<input class="sds-input" data-activity-rule-type="pageview" data-activitykey="fuel_types_diesel" data-component="filter-apply" id="fuel_types_diesel" name="fuel_slugs[]" type="checkbox" value="diesel" aria-describedby="form_label739" role="presentation" aria-hidden="true" tabindex="-1">
+      <label for="fuel_types_diesel" class="sds-label" id="form_label739" role="checkbox" tabindex="0">
+
+Diesel
+
+          <span class="filter-count">(276)</span>
+
+      </label>
+    </div>
+
+    <div class="sds-checkbox">
+
+<input class="sds-input" data-activity-rule-type="pageview" data-activitykey="fuel_types_e85_flex_fuel" data-component="filter-apply" id="fuel_types_e85_flex_fuel" name="fuel_slugs[]" type="checkbox" value="e85_flex_fuel" aria-describedby="form_label975" role="presentation" aria-hidden="true" tabindex="-1">
+      <label for="fuel_types_e85_flex_fuel" class="sds-label" id="form_label975" role="checkbox" tabindex="0">
+
+E85 Flex Fuel
+
+          <span class="filter-count">(101)</span>
+
+      </label>
+    </div>
+
+    <div class="sds-checkbox">
+
+<input class="sds-input" data-activity-rule-type="pageview" data-activitykey="fuel_types_electric" data-component="filter-apply" id="fuel_types_electric" name="fuel_slugs[]" type="checkbox" value="electric" aria-describedby="form_label195" role="presentation" aria-hidden="true" tabindex="-1">
+      <label for="fuel_types_electric" class="sds-label" id="form_label195" role="checkbox" tabindex="0">
+
+Electric
+
+          <span class="filter-count">(2,160)</span>
+
+      </label>
+    </div>
+
+    <div class="sds-checkbox">
+
+<input class="sds-input" data-activity-rule-type="pageview" data-activitykey="fuel_types_gasoline" data-component="filter-apply" id="fuel_types_gasoline" name="fuel_slugs[]" type="checkbox" value="gasoline" aria-describedby="form_label673" role="presentation" aria-hidden="true" tabindex="-1">
+      <label for="fuel_types_gasoline" class="sds-label" id="form_label673" role="checkbox" tabindex="0">
+
+Gasoline
+
+          <span class="filter-count">(11,081)</span>
+
+      </label>
+    </div>
+
+    <div class="sds-checkbox">
+
+<input class="sds-input" data-activity-rule-type="pageview" data-activitykey="fuel_types_hybrid" data-component="filter-apply" id="fuel_types_hybrid" name="fuel_slugs[]" type="checkbox" value="hybrid" aria-describedby="form_label979" role="presentation" aria-hidden="true" tabindex="-1">
+      <label for="fuel_types_hybrid" class="sds-label" id="form_label979" role="checkbox" tabindex="0">
+
+Hybrid
+
+          <span class="filter-count">(1,255)</span>
+
+      </label>
+    </div>
+
+    <div class="sds-checkbox">
+
+<input class="sds-input" data-activity-rule-type="pageview" data-activitykey="fuel_types_plug_in_hybrid" data-component="filter-apply" id="fuel_types_plug_in_hybrid" name="fuel_slugs[]" type="checkbox" value="plug_in_hybrid" aria-describedby="form_label596" role="presentation" aria-hidden="true" tabindex="-1">
+      <label for="fuel_types_plug_in_hybrid" class="sds-label" id="form_label596" role="checkbox" tabindex="0">
+
+Plug-In Hybrid
+
+          <span class="filter-count">(29)</span>
+
+      </label>
+    </div>
+
+</div>
+
+
+  </div>
+</div>
+<div class="sds-accordion" data-handler-type="accordion" data-phx-component="49" id="phx-F3i2NfXkn06qBmrk-49-0">
+  <div class="sds-accordion__heading refinement-accordion available">
+    <button type="button" id="trigger_ev-range" class="sds-accordion__trigger js-accordion-trigger" aria-controls="panel_ev-range" aria-expanded="false">
+      EV range
+
+      
+        <span class="new-feature-badge-container">
+          <span class="new-feature-badge">NEW</span>
+          <spark-svg name="chevron-down" class="sds-accordion__icon" role="presentation"></spark-svg>
+        </span>
+      
+    </button>
+  </div>
+  <div id="panel_ev-range" class="sds-accordion__panel sds-field" aria-labelledby="trigger_ev-range" aria-hidden="true" tabindex="-1">
+    
+
+<spark-range fill-side="right" id="electric_total_range_miles_min" label="Range" max="510" min="0" min-text="1 mile or more" phx-hook="FormSlider" phx-value-event="electric_total_range_miles_min" phx-value-inequality="gt" step="10" value="0" value-text="miles or more">
+</spark-range>
+
+
+  </div>
+</div>
+<div class="sds-accordion" data-handler-type="accordion" data-phx-component="50" id="phx-F3i2NfXkn06qBmrk-50-0">
+  <div class="sds-accordion__heading refinement-accordion available">
+    <button type="button" id="trigger_ev-charge-time" class="sds-accordion__trigger js-accordion-trigger" aria-controls="panel_ev-charge-time" aria-expanded="false">
+      EV charge time
+
+      
+        <span class="new-feature-badge-container">
+          <span class="new-feature-badge">NEW</span>
+          <spark-svg name="chevron-down" class="sds-accordion__icon" role="presentation"></spark-svg>
+        </span>
+      
+    </button>
+  </div>
+  <div id="panel_ev-charge-time" class="sds-accordion__panel sds-field" aria-labelledby="trigger_ev-charge-time" aria-hidden="true" tabindex="-1">
+    
+
+<spark-range fill-side="left" id="hours_to_charge_240v_max" label="Charge time" max="19" min="1" min-text="" phx-hook="FormSlider" phx-value-event="hours_to_charge_240v_max" phx-value-inequality="lt" step="1" value="19" value-text="hours or less">
+</spark-range>
+
+
+  </div>
+</div>
+  </section>
+
+  <section class="guided-nav-section " aria-labelledby="title_features">
+    <div class="sds-heading--5 heading" id="title_features">Features</div>
+
+<div class="sds-accordion" data-handler-type="accordion" data-phx-component="51" id="phx-F3i2NfXkn06qBmrk-51-0">
+  <div class="sds-accordion__heading refinement-accordion available">
+    <button type="button" id="trigger_convenience_features" class="sds-accordion__trigger js-accordion-trigger" aria-controls="panel_convenience_features" aria-expanded="false">
+      Convenience
+
+      
+        <spark-svg name="chevron-down" class="sds-accordion__icon" role="presentation"></spark-svg>
+      
+    </button>
+  </div>
+  <div id="panel_convenience_features" class="sds-accordion__panel sds-field" aria-labelledby="trigger_convenience_features" aria-hidden="true" tabindex="-1">
+    
+<div class="sds-field">
+
+    <div class="sds-checkbox">
+
+<input class="sds-input" data-activity-rule-type="pageview" data-activitykey="convenience_features_adaptive_cruise_control" data-component="filter-apply" id="convenience_features_adaptive_cruise_control" name="feature_slugs[]" type="checkbox" value="adaptive_cruise_control" aria-describedby="form_label127" role="presentation" aria-hidden="true" tabindex="-1">
+      <label for="convenience_features_adaptive_cruise_control" class="sds-label" id="form_label127" role="checkbox" tabindex="0">
+
+Adaptive Cruise Control
+
+          <span class="filter-count">(7,098)</span>
+
+      </label>
+    </div>
+
+    <div class="sds-checkbox">
+
+<input class="sds-input" data-activity-rule-type="pageview" data-activitykey="convenience_features_cooled_seats" data-component="filter-apply" id="convenience_features_cooled_seats" name="feature_slugs[]" type="checkbox" value="cooled_seats" aria-describedby="form_label56" role="presentation" aria-hidden="true" tabindex="-1">
+      <label for="convenience_features_cooled_seats" class="sds-label" id="form_label56" role="checkbox" tabindex="0">
+
+Cooled Seats
+
+          <span class="filter-count">(640)</span>
+
+      </label>
+    </div>
+
+    <div class="sds-checkbox">
+
+<input class="sds-input" data-activity-rule-type="pageview" data-activitykey="convenience_features_heated_seats" data-component="filter-apply" id="convenience_features_heated_seats" name="feature_slugs[]" type="checkbox" value="heated_seats" aria-describedby="form_label766" role="presentation" aria-hidden="true" tabindex="-1">
+      <label for="convenience_features_heated_seats" class="sds-label" id="form_label766" role="checkbox" tabindex="0">
+
+Heated Seats
+
+          <span class="filter-count">(9,541)</span>
+
+      </label>
+    </div>
+
+    <div class="sds-checkbox">
+
+<input class="sds-input" data-activity-rule-type="pageview" data-activitykey="convenience_features_heated_steering_wheel" data-component="filter-apply" id="convenience_features_heated_steering_wheel" name="feature_slugs[]" type="checkbox" value="heated_steering_wheel" aria-describedby="form_label775" role="presentation" aria-hidden="true" tabindex="-1">
+      <label for="convenience_features_heated_steering_wheel" class="sds-label" id="form_label775" role="checkbox" tabindex="0">
+
+Heated Steering Wheel
+
+          <span class="filter-count">(4,779)</span>
+
+      </label>
+    </div>
+
+    <div class="sds-checkbox">
+
+<input class="sds-input" data-activity-rule-type="pageview" data-activitykey="convenience_features_keyless_start" data-component="filter-apply" id="convenience_features_keyless_start" name="feature_slugs[]" type="checkbox" value="keyless_start" aria-describedby="form_label616" role="presentation" aria-hidden="true" tabindex="-1">
+      <label for="convenience_features_keyless_start" class="sds-label" id="form_label616" role="checkbox" tabindex="0">
+
+Keyless Start
+
+          <span class="filter-count">(9,556)</span>
+
+      </label>
+    </div>
+
+    <div class="sds-checkbox">
+
+<input class="sds-input" data-activity-rule-type="pageview" data-activitykey="convenience_features_navigation_system" data-component="filter-apply" id="convenience_features_navigation_system" name="feature_slugs[]" type="checkbox" value="navigation_system" aria-describedby="form_label819" role="presentation" aria-hidden="true" tabindex="-1">
+      <label for="convenience_features_navigation_system" class="sds-label" id="form_label819" role="checkbox" tabindex="0">
+
+Navigation System
+
+          <span class="filter-count">(8,101)</span>
+
+      </label>
+    </div>
+
+    <div class="sds-checkbox">
+
+<input class="sds-input" data-activity-rule-type="pageview" data-activitykey="convenience_features_power_liftgate" data-component="filter-apply" id="convenience_features_power_liftgate" name="feature_slugs[]" type="checkbox" value="power_liftgate" aria-describedby="form_label756" role="presentation" aria-hidden="true" tabindex="-1">
+      <label for="convenience_features_power_liftgate" class="sds-label" id="form_label756" role="checkbox" tabindex="0">
+
+Power Liftgate
+
+          <span class="filter-count">(5,923)</span>
+
+      </label>
+    </div>
+
+    <div class="sds-checkbox">
+
+<input class="sds-input" data-activity-rule-type="pageview" data-activitykey="convenience_features_remote_start" data-component="filter-apply" id="convenience_features_remote_start" name="feature_slugs[]" type="checkbox" value="remote_start" aria-describedby="form_label527" role="presentation" aria-hidden="true" tabindex="-1">
+      <label for="convenience_features_remote_start" class="sds-label" id="form_label527" role="checkbox" tabindex="0">
+
+Remote Start
+
+          <span class="filter-count">(4,754)</span>
+
+      </label>
+    </div>
+
+</div>
+
+
+  </div>
+</div>
+
+<div class="sds-accordion" data-handler-type="accordion" data-phx-component="52" id="phx-F3i2NfXkn06qBmrk-52-0">
+  <div class="sds-accordion__heading refinement-accordion available">
+    <button type="button" id="trigger_entertainment_features" class="sds-accordion__trigger js-accordion-trigger" aria-controls="panel_entertainment_features" aria-expanded="false">
+      Entertainment
+
+      
+        <spark-svg name="chevron-down" class="sds-accordion__icon" role="presentation"></spark-svg>
+      
+    </button>
+  </div>
+  <div id="panel_entertainment_features" class="sds-accordion__panel sds-field" aria-labelledby="trigger_entertainment_features" aria-hidden="true" tabindex="-1">
+    
+<div class="sds-field">
+
+    <div class="sds-checkbox">
+
+<input class="sds-input" data-activity-rule-type="pageview" data-activitykey="entertainment_features_apple_carplay_android_auto" data-component="filter-apply" id="entertainment_features_apple_carplay_android_auto" name="feature_slugs[]" type="checkbox" value="apple_carplay_android_auto" aria-describedby="form_label948" role="presentation" aria-hidden="true" tabindex="-1">
+      <label for="entertainment_features_apple_carplay_android_auto" class="sds-label" id="form_label948" role="checkbox" tabindex="0">
+
+Apple CarPlay®/Android Auto®
+
+          <span class="filter-count">(6,359)</span>
+
+      </label>
+    </div>
+
+    <div class="sds-checkbox">
+
+<input class="sds-input" data-activity-rule-type="pageview" data-activitykey="entertainment_features_bluetooth" data-component="filter-apply" id="entertainment_features_bluetooth" name="feature_slugs[]" type="checkbox" value="bluetooth" aria-describedby="form_label413" role="presentation" aria-hidden="true" tabindex="-1">
+      <label for="entertainment_features_bluetooth" class="sds-label" id="form_label413" role="checkbox" tabindex="0">
+
+Bluetooth®
+
+          <span class="filter-count">(12,294)</span>
+
+      </label>
+    </div>
+
+    <div class="sds-checkbox">
+
+<input class="sds-input" data-activity-rule-type="pageview" data-activitykey="entertainment_features_homelink" data-component="filter-apply" id="entertainment_features_homelink" name="feature_slugs[]" type="checkbox" value="homelink" aria-describedby="form_label112" role="presentation" aria-hidden="true" tabindex="-1">
+      <label for="entertainment_features_homelink" class="sds-label" id="form_label112" role="checkbox" tabindex="0">
+
+HomeLink
+
+          <span class="filter-count">(5,828)</span>
+
+      </label>
+    </div>
+
+    <div class="sds-checkbox">
+
+<input class="sds-input" data-activity-rule-type="pageview" data-activitykey="entertainment_features_premium_sound_system" data-component="filter-apply" id="entertainment_features_premium_sound_system" name="feature_slugs[]" type="checkbox" value="premium_sound_system" aria-describedby="form_label542" role="presentation" aria-hidden="true" tabindex="-1">
+      <label for="entertainment_features_premium_sound_system" class="sds-label" id="form_label542" role="checkbox" tabindex="0">
+
+Premium Sound System
+
+          <span class="filter-count">(6,179)</span>
+
+      </label>
+    </div>
+
+    <div class="sds-checkbox">
+
+<input class="sds-input" data-activity-rule-type="pageview" data-activitykey="entertainment_features_rear_seat_entertaiment" data-component="filter-apply" id="entertainment_features_rear_seat_entertaiment" name="feature_slugs[]" type="checkbox" value="rear_seat_entertaiment" aria-describedby="form_label756" role="presentation" aria-hidden="true" tabindex="-1">
+      <label for="entertainment_features_rear_seat_entertaiment" class="sds-label" id="form_label756" role="checkbox" tabindex="0">
+
+Rear Seat Entertainment
+
+          <span class="filter-count">(146)</span>
+
+      </label>
+    </div>
+
+    <div class="sds-checkbox">
+
+<input class="sds-input" data-activity-rule-type="pageview" data-activitykey="entertainment_features_usb_port" data-component="filter-apply" id="entertainment_features_usb_port" name="feature_slugs[]" type="checkbox" value="usb_port" aria-describedby="form_label922" role="presentation" aria-hidden="true" tabindex="-1">
+      <label for="entertainment_features_usb_port" class="sds-label" id="form_label922" role="checkbox" tabindex="0">
+
+USB Port
+
+          <span class="filter-count">(6,351)</span>
+
+      </label>
+    </div>
+
+</div>
+
+
+  </div>
+</div>
+
+<div class="sds-accordion" data-handler-type="accordion" data-phx-component="53" id="phx-F3i2NfXkn06qBmrk-53-0">
+  <div class="sds-accordion__heading refinement-accordion available">
+    <button type="button" id="trigger_exterior_features" class="sds-accordion__trigger js-accordion-trigger" aria-controls="panel_exterior_features" aria-expanded="false">
+      Exterior
+
+      
+        <spark-svg name="chevron-down" class="sds-accordion__icon" role="presentation"></spark-svg>
+      
+    </button>
+  </div>
+  <div id="panel_exterior_features" class="sds-accordion__panel sds-field" aria-labelledby="trigger_exterior_features" aria-hidden="true" tabindex="-1">
+    
+<div class="sds-field">
+
+    <div class="sds-checkbox">
+
+<input class="sds-input" data-activity-rule-type="pageview" data-activitykey="exterior_features_alloy_wheels" data-component="filter-apply" id="exterior_features_alloy_wheels" name="feature_slugs[]" type="checkbox" value="alloy_wheels" aria-describedby="form_label213" role="presentation" aria-hidden="true" tabindex="-1">
+      <label for="exterior_features_alloy_wheels" class="sds-label" id="form_label213" role="checkbox" tabindex="0">
+
+Alloy Wheels
+
+          <span class="filter-count">(14,143)</span>
+
+      </label>
+    </div>
+
+    <div class="sds-checkbox">
+
+<input class="sds-input" data-activity-rule-type="pageview" data-activitykey="exterior_features_sunroof_moonroof" data-component="filter-apply" id="exterior_features_sunroof_moonroof" name="feature_slugs[]" type="checkbox" value="sunroof_moonroof" aria-describedby="form_label405" role="presentation" aria-hidden="true" tabindex="-1">
+      <label for="exterior_features_sunroof_moonroof" class="sds-label" id="form_label405" role="checkbox" tabindex="0">
+
+Sunroof/Moonroof
+
+          <span class="filter-count">(7,851)</span>
+
+      </label>
+    </div>
+
+    <div class="sds-checkbox">
+
+<input class="sds-input" data-activity-rule-type="pageview" data-activitykey="exterior_features_tow_hitch" data-component="filter-apply" id="exterior_features_tow_hitch" name="feature_slugs[]" type="checkbox" value="tow_hitch" aria-describedby="form_label139" role="presentation" aria-hidden="true" tabindex="-1">
+      <label for="exterior_features_tow_hitch" class="sds-label" id="form_label139" role="checkbox" tabindex="0">
+
+Tow Hitch
+
+          <span class="filter-count">(1,888)</span>
+
+      </label>
+    </div>
+
+    <div class="sds-checkbox">
+
+<input class="sds-input" data-activity-rule-type="pageview" data-activitykey="exterior_features_tow_hooks" data-component="filter-apply" id="exterior_features_tow_hooks" name="feature_slugs[]" type="checkbox" value="tow_hooks" aria-describedby="form_label77" role="presentation" aria-hidden="true" tabindex="-1">
+      <label for="exterior_features_tow_hooks" class="sds-label" id="form_label77" role="checkbox" tabindex="0">
+
+Tow Hooks
+
+          <span class="filter-count">(1,064)</span>
+
+      </label>
+    </div>
+
+</div>
+
+
+  </div>
+</div>
+
+<div class="sds-accordion" data-handler-type="accordion" data-phx-component="54" id="phx-F3i2NfXkn06qBmrk-54-0">
+  <div class="sds-accordion__heading refinement-accordion available">
+    <button type="button" id="trigger_safety_features" class="sds-accordion__trigger js-accordion-trigger" aria-controls="panel_safety_features" aria-expanded="false">
+      Safety
+
+      
+        <spark-svg name="chevron-down" class="sds-accordion__icon" role="presentation"></spark-svg>
+      
+    </button>
+  </div>
+  <div id="panel_safety_features" class="sds-accordion__panel sds-field" aria-labelledby="trigger_safety_features" aria-hidden="true" tabindex="-1">
+    
+<div class="sds-field">
+
+    <div class="sds-checkbox">
+
+<input class="sds-input" data-activity-rule-type="pageview" data-activitykey="safety_features_automatic_emergency_braking" data-component="filter-apply" id="safety_features_automatic_emergency_braking" name="feature_slugs[]" type="checkbox" value="automatic_emergency_braking" aria-describedby="form_label365" role="presentation" aria-hidden="true" tabindex="-1">
+      <label for="safety_features_automatic_emergency_braking" class="sds-label" id="form_label365" role="checkbox" tabindex="0">
+
+Automatic Emergency Braking
+
+          <span class="filter-count">(5,208)</span>
+
+      </label>
+    </div>
+
+    <div class="sds-checkbox">
+
+<input class="sds-input" data-activity-rule-type="pageview" data-activitykey="safety_features_backup_camera" data-component="filter-apply" id="safety_features_backup_camera" name="feature_slugs[]" type="checkbox" value="backup_camera" aria-describedby="form_label783" role="presentation" aria-hidden="true" tabindex="-1">
+      <label for="safety_features_backup_camera" class="sds-label" id="form_label783" role="checkbox" tabindex="0">
+
+Backup Camera
+
+          <span class="filter-count">(11,377)</span>
+
+      </label>
+    </div>
+
+    <div class="sds-checkbox">
+
+<input class="sds-input" data-activity-rule-type="pageview" data-activitykey="safety_features_blind_spot_monitor" data-component="filter-apply" id="safety_features_blind_spot_monitor" name="feature_slugs[]" type="checkbox" value="blind_spot_monitor" aria-describedby="form_label614" role="presentation" aria-hidden="true" tabindex="-1">
+      <label for="safety_features_blind_spot_monitor" class="sds-label" id="form_label614" role="checkbox" tabindex="0">
+
+Blind Spot Monitor
+
+          <span class="filter-count">(7,014)</span>
+
+      </label>
+    </div>
+
+    <div class="sds-checkbox">
+
+<input class="sds-input" data-activity-rule-type="pageview" data-activitykey="safety_features_brake_assist" data-component="filter-apply" id="safety_features_brake_assist" name="feature_slugs[]" type="checkbox" value="brake_assist" aria-describedby="form_label510" role="presentation" aria-hidden="true" tabindex="-1">
+      <label for="safety_features_brake_assist" class="sds-label" id="form_label510" role="checkbox" tabindex="0">
+
+Brake Assist
+
+          <span class="filter-count">(14,660)</span>
+
+      </label>
+    </div>
+
+    <div class="sds-checkbox">
+
+<input class="sds-input" data-activity-rule-type="pageview" data-activitykey="safety_features_led_headlights" data-component="filter-apply" id="safety_features_led_headlights" name="feature_slugs[]" type="checkbox" value="led_headlights" aria-describedby="form_label620" role="presentation" aria-hidden="true" tabindex="-1">
+      <label for="safety_features_led_headlights" class="sds-label" id="form_label620" role="checkbox" tabindex="0">
+
+LED Headlights
+
+          <span class="filter-count">(7,794)</span>
+
+      </label>
+    </div>
+
+    <div class="sds-checkbox">
+
+<input class="sds-input" data-activity-rule-type="pageview" data-activitykey="safety_features_lane_departure_warning" data-component="filter-apply" id="safety_features_lane_departure_warning" name="feature_slugs[]" type="checkbox" value="lane_departure_warning" aria-describedby="form_label1" role="presentation" aria-hidden="true" tabindex="-1">
+      <label for="safety_features_lane_departure_warning" class="sds-label" id="form_label1" role="checkbox" tabindex="0">
+
+Lane Departure Warning
+
+          <span class="filter-count">(7,310)</span>
+
+      </label>
+    </div>
+
+    <div class="sds-checkbox">
+
+<input class="sds-input" data-activity-rule-type="pageview" data-activitykey="safety_features_rear_cross_traffic_alert" data-component="filter-apply" id="safety_features_rear_cross_traffic_alert" name="feature_slugs[]" type="checkbox" value="rear_cross_traffic_alert" aria-describedby="form_label925" role="presentation" aria-hidden="true" tabindex="-1">
+      <label for="safety_features_rear_cross_traffic_alert" class="sds-label" id="form_label925" role="checkbox" tabindex="0">
+
+Rear Cross Traffic Alert
+
+          <span class="filter-count">(3,488)</span>
+
+      </label>
+    </div>
+
+    <div class="sds-checkbox">
+
+<input class="sds-input" data-activity-rule-type="pageview" data-activitykey="safety_features_stability_control" data-component="filter-apply" id="safety_features_stability_control" name="feature_slugs[]" type="checkbox" value="stability_control" aria-describedby="form_label578" role="presentation" aria-hidden="true" tabindex="-1">
+      <label for="safety_features_stability_control" class="sds-label" id="form_label578" role="checkbox" tabindex="0">
+
+Stability Control
+
+          <span class="filter-count">(13,491)</span>
+
+      </label>
+    </div>
+
+</div>
+
+
+  </div>
+</div>
+
+<div class="sds-accordion" data-handler-type="accordion" data-phx-component="55" id="phx-F3i2NfXkn06qBmrk-55-0">
+  <div class="sds-accordion__heading refinement-accordion available">
+    <button type="button" id="trigger_seating_features" class="sds-accordion__trigger js-accordion-trigger" aria-controls="panel_seating_features" aria-expanded="false">
+      Seating
+
+      
+        <spark-svg name="chevron-down" class="sds-accordion__icon" role="presentation"></spark-svg>
+      
+    </button>
+  </div>
+  <div id="panel_seating_features" class="sds-accordion__panel sds-field" aria-labelledby="trigger_seating_features" aria-hidden="true" tabindex="-1">
+    
+<div class="sds-field">
+
+    <div class="sds-checkbox">
+
+<input class="sds-input" data-activity-rule-type="pageview" data-activitykey="seating_features_leather_seats" data-component="filter-apply" id="seating_features_leather_seats" name="feature_slugs[]" type="checkbox" value="leather_seats" aria-describedby="form_label237" role="presentation" aria-hidden="true" tabindex="-1">
+      <label for="seating_features_leather_seats" class="sds-label" id="form_label237" role="checkbox" tabindex="0">
+
+Leather Seats
+
+          <span class="filter-count">(7,630)</span>
+
+      </label>
+    </div>
+
+    <div class="sds-checkbox">
+
+<input class="sds-input" data-activity-rule-type="pageview" data-activitykey="seating_features_memory_seat" data-component="filter-apply" id="seating_features_memory_seat" name="feature_slugs[]" type="checkbox" value="memory_seat" aria-describedby="form_label259" role="presentation" aria-hidden="true" tabindex="-1">
+      <label for="seating_features_memory_seat" class="sds-label" id="form_label259" role="checkbox" tabindex="0">
+
+Memory Seat
+
+          <span class="filter-count">(7,091)</span>
+
+      </label>
+    </div>
+
+    <div class="sds-checkbox">
+
+<input class="sds-input" data-activity-rule-type="pageview" data-activitykey="seating_features_third_row_seating" data-component="filter-apply" id="seating_features_third_row_seating" name="feature_slugs[]" type="checkbox" value="third_row_seating" aria-describedby="form_label187" role="presentation" aria-hidden="true" tabindex="-1">
+      <label for="seating_features_third_row_seating" class="sds-label" id="form_label187" role="checkbox" tabindex="0">
+
+Third Row Seating
+
+          <span class="filter-count">(1,915)</span>
+
+      </label>
+    </div>
+
+</div>
+
+
+  </div>
+</div>
+
+<div class="sds-accordion" data-handler-type="accordion" data-phx-component="56" id="phx-F3i2NfXkn06qBmrk-56-0">
+  <div class="sds-accordion__heading refinement-accordion available">
+    <button type="button" id="trigger_door_counts" class="sds-accordion__trigger js-accordion-trigger" aria-controls="panel_door_counts" aria-expanded="false">
+      Door count
+
+      
+        <spark-svg name="chevron-down" class="sds-accordion__icon" role="presentation"></spark-svg>
+      
+    </button>
+  </div>
+  <div id="panel_door_counts" class="sds-accordion__panel sds-field" aria-labelledby="trigger_door_counts" aria-hidden="true" tabindex="-1">
+    
+<div class="sds-field">
+
+    <div class="sds-checkbox">
+
+<input class="sds-input" data-activity-rule-type="pageview" data-activitykey="door_counts_2" data-component="filter-apply" id="door_counts_2" name="door_counts[]" type="checkbox" value="2" aria-describedby="form_label236" role="presentation" aria-hidden="true" tabindex="-1">
+      <label for="door_counts_2" class="sds-label" id="form_label236" role="checkbox" tabindex="0">
+
+2 doors
+
+          <span class="filter-count">(853)</span>
+
+      </label>
+    </div>
+
+    <div class="sds-checkbox">
+
+<input class="sds-input" data-activity-rule-type="pageview" data-activitykey="door_counts_3" data-component="filter-apply" id="door_counts_3" name="door_counts[]" type="checkbox" value="3" aria-describedby="form_label826" role="presentation" aria-hidden="true" tabindex="-1">
+      <label for="door_counts_3" class="sds-label" id="form_label826" role="checkbox" tabindex="0">
+
+3 doors
+
+          <span class="filter-count">(189)</span>
+
+      </label>
+    </div>
+
+    <div class="sds-checkbox">
+
+<input class="sds-input" data-activity-rule-type="pageview" data-activitykey="door_counts_4" data-component="filter-apply" id="door_counts_4" name="door_counts[]" type="checkbox" value="4" aria-describedby="form_label903" role="presentation" aria-hidden="true" tabindex="-1">
+      <label for="door_counts_4" class="sds-label" id="form_label903" role="checkbox" tabindex="0">
+
+4 doors
+
+          <span class="filter-count">(15,275)</span>
+
+      </label>
+    </div>
+
+    <div class="sds-checkbox">
+
+<input class="sds-input" data-activity-rule-type="pageview" data-activitykey="door_counts_5" data-component="filter-apply" id="door_counts_5" name="door_counts[]" type="checkbox" value="5" aria-describedby="form_label423" role="presentation" aria-hidden="true" tabindex="-1">
+      <label for="door_counts_5" class="sds-label" id="form_label423" role="checkbox" tabindex="0">
+
+5 doors
+
+          <span class="filter-count">(180)</span>
+
+      </label>
+    </div>
+
+    <div class="sds-checkbox">
+
+<input class="sds-input" data-activity-rule-type="pageview" data-activitykey="door_counts_0" data-component="filter-apply" id="door_counts_0" name="door_counts[]" type="checkbox" value="0" aria-describedby="form_label760" role="presentation" aria-hidden="true" tabindex="-1">
+      <label for="door_counts_0" class="sds-label" id="form_label760" role="checkbox" tabindex="0">
+
+Unknown
+
+          <span class="filter-count">(1)</span>
+
+      </label>
+    </div>
+
+</div>
+
+
+  </div>
+</div>
+  </section>
+
+  <section class="guided-nav-section " aria-labelledby="title_contactless_services">
+    <div class="sds-heading--5 heading" id="title_contactless_services">Contactless services</div>
+
+
+<div class="sds-field filter refinement-simple available" data-phx-component="57" id="phx-F3i2NfXkn06qBmrk-57-0">
+  <div class="sds-field " id="contactless_services">
+    
+  <div class="sds-checkbox contactless-services-checkbox">
+    <input class="sds-input" data-activity-rule-type="pageview" data-activitykey="home_delivery_true" data-component="filter-apply" id="home_delivery_true" name="home_delivery" type="checkbox" value="true">
+    <label for="home_delivery_true" class="sds-label">
+      Home delivery
+      <span class="filter-count">(11,937)</span>
+    </label>
+  </div>
+
+  <div class="sds-checkbox contactless-services-checkbox">
+    <input class="sds-input" data-activity-rule-type="pageview" data-activitykey="virtual_appointments_true" data-component="filter-apply" id="virtual_appointments_true" name="virtual_appointments" type="checkbox" value="true">
+    <label for="virtual_appointments_true" class="sds-label">
+      Virtual appointments
+      <span class="filter-count">(11,628)</span>
+    </label>
+  </div>
+
+
+  </div>
+  
+</div>
+  </section>
+
+  <section class="guided-nav-section " aria-labelledby="title_seller_info">
+    <div class="sds-heading--5 heading" id="title_seller_info">Seller info</div>
+
+<div class="sds-accordion" data-handler-type="accordion" data-phx-component="58" id="phx-F3i2NfXkn06qBmrk-58-0">
+  <div class="sds-accordion__heading refinement-accordion available">
+    <button type="button" id="trigger_seller_type" class="sds-accordion__trigger js-accordion-trigger" aria-controls="panel_seller_type" aria-expanded="false">
+      Seller type
+
+      
+        <spark-svg name="chevron-down" class="sds-accordion__icon" role="presentation"></spark-svg>
+      
+    </button>
+  </div>
+  <div id="panel_seller_type" class="sds-accordion__panel sds-field" aria-labelledby="trigger_seller_type" aria-hidden="true" tabindex="-1">
+    
+<div class="sds-field">
+
+    <div class="sds-checkbox">
+
+<input class="sds-input" data-activity-rule-type="pageview" data-activitykey="seller_type_dealership" data-component="filter-apply" id="seller_type_dealership" name="seller_type[]" type="checkbox" value="dealership" aria-describedby="form_label243" role="presentation" aria-hidden="true" tabindex="-1">
+      <label for="seller_type_dealership" class="sds-label" id="form_label243" role="checkbox" tabindex="0">
+
+Dealership
+
+          <span class="filter-count">(16,618)</span>
+
+      </label>
+    </div>
+
+    <div class="sds-checkbox">
+
+<input class="sds-input" data-activity-rule-type="pageview" data-activitykey="seller_type_online_seller" data-component="filter-apply" id="seller_type_online_seller" name="seller_type[]" type="checkbox" value="online_seller" aria-describedby="form_label629" role="presentation" aria-hidden="true" tabindex="-1">
+      <label for="seller_type_online_seller" class="sds-label" id="form_label629" role="checkbox" tabindex="0">
+
+Online seller
+
+          <span class="filter-count">(117)</span>
+
+      </label>
+    </div>
+
+    <div class="sds-checkbox">
+
+<input class="sds-input" data-activity-rule-type="pageview" data-activitykey="seller_type_private_seller" data-component="filter-apply" id="seller_type_private_seller" name="seller_type[]" type="checkbox" value="private_seller" aria-describedby="form_label715" role="presentation" aria-hidden="true" tabindex="-1">
+      <label for="seller_type_private_seller" class="sds-label" id="form_label715" role="checkbox" tabindex="0">
+
+Private seller
+
+          <span class="filter-count">(147)</span>
+
+      </label>
+    </div>
+
+</div>
+
+
+  </div>
+</div>
+  </section>
+
+    <section class="guided-nav-section" aria-labelledby="title_keyword">
+      <div class="sds-heading--5 heading" id="title_keyword">Keyword</div>
+
+<div class="sds-field filter refinement-simple available" data-phx-component="59" id="phx-F3i2NfXkn06qBmrk-59-0">
+  <div class="sds-field " id="keyword_refinement">
+    
+<div>
+
+    <div class="sds-input-container keyword-input">
+<input aria-label="Enter a Keyword" class="sds-text-field keyword-input" data-activity-rule-type="pageview" data-activitykey="keyword" data-component="vehicle-search" id="keyword" maxlength="50" name="keyword" phx-debounce="750" phx-page-loading="" placeholder="e.g. sunroof" type="text">
+    </div>
+
+</div>
+
+
+  </div>
+  
+</div>
+      <button id="keyword_search_submit" phx-click="search_form_change" class="sds-button--secondary sds-button--medium keyword-search-button">
+        Update
+      </button>
+    </section>
+
+
+  <section class="guided-nav-section " aria-labelledby="title_show_only">
+    <div class="sds-heading--5 heading" id="title_show_only">Show only</div>
+
+<div class="sds-field filter refinement-simple available" data-phx-component="60" id="phx-F3i2NfXkn06qBmrk-60-0">
+  <div class="sds-field " id="show_only">
+    
+  <div class="sds-checkbox contactless-services-checkbox">
+    <input class="sds-input" data-activity-rule-type="pageview" data-activitykey="only_with_photos_true" data-component="filter-apply" id="only_with_photos_true" name="only_with_photos" type="checkbox" value="true">
+    <label for="only_with_photos_true" class="sds-label">
+      Cars with photos
+      <span class="filter-count">(13,950)</span>
+    </label>
+  </div>
+
+
+  </div>
+  
+</div>
+  </section>
+
+</form>
+
+
+      </div>
+<div id="srp-gn" class="display-ad rail-ad sticky" data-ad-unit-path="6427/shop/mix.srp/gn" data-ad-type="partial-page-width" data-hidden-on="[&quot;mobile&quot;]" data-ad-sizes="[[300, 600], [300, 250]]" data-appnexus-placement-id="17848504" data-lazy-load="" phx-update="ignore">
+  <div id="phx-ignore-container-srp-gn" phx-update="ignore" aria-label="Advertisement"></div>
+</div>
+
+    </div>
